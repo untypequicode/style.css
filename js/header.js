@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (typeof logo.type === "undefined" && typeof logo.content !== "undefined") {
             if (logo.type === "image") {
                 var logoImage = document.createElement("img");
+                logoImage.classList.add("logo-img");
                 logoImage.src = logo.content;
                 logoImage.alt = "Logo";
-                logoImage.classList.add("logo-img");
                 logoElement.appendChild(logoImage);
             } else if (logo.type === "text") {
                 logoElement.textContent = logo.content;
