@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (typeof logo !== "undefined") {
         var logoElement = document.createElement("a");
-        if (typeof logo.type === "undefined" && typeof logo.content !== "undefined") {
+        if (typeof logo.type !== "undefined" && typeof logo.content !== "undefined") {
             if (logo.type === "image") {
                 var logoImage = document.createElement("img");
                 logoImage.classList.add("logo-img");
@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
+    navbar.appendChild(activeNav);
     header.appendChild(navbar);
-    header.appendChild(activeNav);
 
     menuIcon = document.getElementById("menu-icon");
     navbar = document.querySelector(".navbar");
