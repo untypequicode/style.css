@@ -3,6 +3,10 @@ const db_header = [
         text: "Accueil",
         url: "https://untypequicode.github.io/style.css",
     },
+    {
+        text: "Documentation",
+        url: "#",
+    },
 ];
 
 const logo = {
