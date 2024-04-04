@@ -12,7 +12,7 @@ const db_header = [
 const logo = {
     type: "text",
     // type: "image",
-    content: "Style.css",
+    content: "style.css",
     // content: "images/favicon.svg",
     link: "https://untypequicode.github.io/style.css",
 }
