@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         if (typeof logo.link !== "undefined") {
             logoElement.href = logo.link;
+            if (typeof logo.index !== "undefined" && logo.index === document.body.dataset.active) {
+                logoElement.href = "#";
+            }
         }
         logoElement.classList.add("logo");
         header.appendChild(logoElement);

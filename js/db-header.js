@@ -15,4 +15,5 @@ const logo = {
     content: "style.css",
     // content: "images/favicon.svg",
     link: "https://untypequicode.github.io/style.css",
+    index: "Accueil",
 }
