@@ -1,0 +1,51 @@
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*padding: 9% 9%;*/
+}
+
+section.s-mh-25 {
+    min-height: 25vh;
+}
+
+section.s-mh-50 {
+    min-height: 50vh;
+}
+
+section.s-mh-75 {
+    min-height: 75vh;
+}
+
+section.s-mh-100 {
+    min-height: 100vh;
+}
+
+.sh {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* BREAKPOINT */
+@media all and (max-width: 991px) {
+    section {
+        padding: 10rem 4% 2rem;
+    }
+}

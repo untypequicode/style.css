@@ -33,7 +33,9 @@ h5 {
     color: var(--text-color);
 }
 
-p {
+p,
+li,
+code {
     font-family: "Urbanist", sans-serif;
     font-size: calc(0.03 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: 400;
@@ -67,7 +69,9 @@ p {
         font-size: calc(0.05 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 
-    p {
+    p,
+    li,
+    code {
         font-size: calc(0.02 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 }
@@ -93,7 +97,9 @@ p {
         font-size: calc(0.05 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 
-    p {
+    p,
+    li,
+    code {
         font-size: calc(0.01 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 }
@@ -123,7 +129,9 @@ p {
         font-size: calc(0.025 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 
-    p {
+    p,
+    li,
+    code {
         font-size: calc(0 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 }

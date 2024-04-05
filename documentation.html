@@ -26,17 +26,146 @@
 
 <body data-active="Documentation">
 
-<header class="header"></header>
+    <header class="header"></header>
 
-<section></section>
+    <section>
+        <div class="sv">
+            <h1 class="ah">Documentation</h1>
+            <h4 class="ah">Bienvenue dans la documentation de Style.css</h4>
+        </div>
+    </section>
 
-<footer class="footer"></footer>
+    <section>
+        <div class="sv">
+            <h3 class="ah">Installation</h3>
+            <p class="ah">Pour utiliser Style.css, vous avez deux options :</p>
+            <div class="sv ah">
+                <h4>Télécharger le fichier CSS</h4>
+                <p>Vous pouvez télécharger le fichier CSS de Style.css et ses dépendances pour l'inclure dans votre projet.</p>
+                <pre><code>&lt;link rel="stylesheet" href="style.css"&gt;</code></pre>
 
-<!-- script -->
-<script src="js/db-header.js"></script>
-<script src="js/header.js"></script>
-<script src="js/db-footer.js"></script>
-<script src="js/footer.js"></script>
+                <h4>Utiliser le CDN</h4>
+                <p>Vous pouvez également utiliser le CDN de Style.css pour inclure le framework dans votre projet.</p>
+                <pre><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/style.css"&gt;</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="s-mh-25">
+        <h2 class="ah">Les possibilités de Style.css</h2>
+    </section>
+
+    <section class="s-mh-25" id="section">
+        <div class="sv ah">
+            <h3 class="ah">La gestion des sections</h3>
+        </div>
+    </section>
+
+    <section class="s-mh-50">
+        <div class="sv ah">
+            <h4 class="ah">Accéder au style des sections</h4>
+            <h5 class="ah">Télécharger le fichier CSS</h5>
+            <pre class="ah"><code>&lt;link rel="stylesheet" href="section.css"&gt;</code></pre>
+            <h5 class="ah">Utiliser le CDN</h5>
+            <pre class="ah"><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/section.css"&gt;</code></pre>
+        </div>
+    </section>
+
+    <section class="s-mh-50">
+        <div class="sv ah">
+            <h4 class="ah">Gestion des tailles</h4>
+            <p class="ah">Vous pouvez gérer la taille des sections en utilisant les classes suivantes :</p>
+            <pre class="ah"><code>&lt;section class="s-mh-25"&gt;&lt;/section&gt;</code></pre>
+            <p class="ah">La valeur de la taille est exprimée en pourcentage de la hauteur de la fenêtre.</p>
+            <p class="ah">Les tailles disponibles sont :</p>
+            <ul>
+                <li class="ah"><pre><code>s-mh-25</code></pre></li>
+                <li class="ah"><pre><code>s-mh-50</code></pre></li>
+                <li class="ah"><pre><code>s-mh-75</code></pre></li>
+                <li class="ah"><pre><code>s-mh-100</code></pre></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="s-mh-25">
+        <div class="sv ah">
+            <h4 class="ah">Gestion des placements du contenu</h4>
+            <p class="ah">Vous pouvez gérer le placement du contenu des sections en utilisant les classes suivantes :</p>
+            <pre class="ah"><code>&lt;div class="sv"&gt;&lt;/div&gt;</code></pre>
+            <p class="ah">Les placements disponibles sont :</p>
+            <ul class="ah">
+                <li class="ah"><pre><code>sh</code></pre> : horizontal</li>
+                <li class="ah"><pre><code>sv</code></pre> : vertical</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="s-mh-25" id="animation">
+        <div class="sv ah">
+            <h3 class="ah">La gestion des animations</h3>
+        </div>
+    </section>
+
+    <section class="s-mh-50">
+        <div class="sv ah">
+            <h4 class="ah">Accéder au style des animations</h4>
+            <h5 class="ah">Télécharger le fichier CSS</h5>
+            <pre class="ah"><code>&lt;link rel="stylesheet" href="animation.css"&gt;</code></pre>
+            <h5 class="ah">Utiliser le CDN</h5>
+            <pre class="ah"><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/animation.css"&gt;</code></pre>
+        </div>
+    </section>
+
+    <section class="s-mh-50">
+        <div class="sv ah">
+            <h4 class="ah">Gestion des animations</h4>
+            <p class="ah">Vous pouvez gérer les animations des éléments en utilisant les classes suivantes :</p>
+            <pre class="ah"><code>&lt;div class="ah-n"&gt;&lt;/div&gt;</code></pre>
+            <p class="ah">Le paramètre <code>n</code> permet de définir le type d'animation. La valeur de <code>n</code> est celle par défaut, il n'est pas nécessaire de l'ajouter.</p>
+            <p class="ah">Le paramètre <code>h</code> détermine que le composant sera caché au chargement de la page. Il faut ajouter la classe avec le <code>s</code> pour afficher le composant au chargement de la page.</p>
+            <p class="ah">Les animations disponibles sont :</p>
+            <ul>
+                <li class="ah"><pre><code>ah</code> <code>ah-n</code></pre> : animation normale cachée</li>
+                <li class="ah"><pre><code>as</code> <code>as-n</code></pre> : animation normale affichée au démarrage à définir en plus de <code>ah</code></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="s-mh-25" id="text">
+        <div class="sv ah">
+            <h3 class="ah">La gestion des textes</h3>
+        </div>
+    </section>
+
+    <section class="s-mh-50">
+        <div class="sv ah">
+            <h4 class="ah">Accéder au style des textes</h4>
+            <h5 class="ah">Télécharger le fichier CSS</h5>
+            <pre class="ah"><code>&lt;link rel="stylesheet" href="text.css"&gt;</code></pre>
+            <h5 class="ah">Utiliser le CDN</h5>
+            <pre class="ah"><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/text.css"&gt;</code></pre>
+        </div>
+    </section>
+
+    <section class="s-mh-50">
+        <div class="sv ah">
+            <h4 class="ah">Gestion des textes</h4>
+            <p class="ah">La gestion des tailles de texte est automatique. Vous pouvez gérer la taille du texte le plus petit et le plus grand en utilisant les lignes de code css suivantes :</p>
+            <pre class="ah"><code>:root { --max-font-size: 15rem; --min-font-size: 2rem; }</code></pre>
+        </div>
+    </section>
+
+    <section class="s-mh-25"></section>
+
+
+    <footer class="footer"></footer>
+
+    <!-- script -->
+    <script src="js/db-header.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/db-footer.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/animation.js"></script>
 </body>
 
 </html>
