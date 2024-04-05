@@ -10,6 +10,11 @@ code {
     /*display: block;*/
 }
 
+section.s-bg-s code {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
 ul {
     display: flex;
     flex-direction: column;
