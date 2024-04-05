@@ -5,7 +5,7 @@ const db_header = [
     },
     {
         text: "Documentation",
-        url: "#",
+        url: "doc",
     },
 ];
 
