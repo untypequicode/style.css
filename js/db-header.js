@@ -15,6 +15,10 @@ const db_header = [
         text: "A propos",
         url: "a-propos",
     },
+    {
+        text: "Script.js",
+        url: "https://untypequicode.github.io/script.js",
+    },
 ];
 
 const logo = {
