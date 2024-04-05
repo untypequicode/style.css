@@ -1,24 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
-    transition: background-color 0.5s ease, color 0.5s ease;
-}
-
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-}
-
-body {
-    background: var(--bg-color);
-    color: var(--text-color);
-    overflow-y: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -36,55 +17,37 @@ section {
     /*padding: 9% 9%;*/
 }
 
-section.size25 {
+section.min-h-25 {
     min-height: 25vh;
 }
 
-section.size50 {
+section.min-h-50 {
     min-height: 50vh;
 }
 
-section.size75 {
+section.min-h-75 {
     min-height: 75vh;
 }
 
-.btn {
-    position: relative;
-    font-size: 2.5rem;
-    font-weight: 400;
-    color: var(--text-color);
-    background-color: transparent;
-    padding: 1rem 2rem;
-    border: 2px solid var(--text-color);
-    border-radius: 5px;
-    cursor: pointer;
-    display: inline-block;
-    width: auto;
-    z-index: 1;
+.sh {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
 }
 
-.btn::before {
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    background-color: var(--text-color);
-
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.25s ease-in-out;
+.sv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
 }
 
-.btn:hover::before,
-.btn:focus::before {
-    transform: scaleX(1);
-}
-
-.btn:hover,
-.btn:focus {
-    color: var(--bg-color);
-    transition: color 0.25s ease-in-out;
+/* BREAKPOINT */
+@media all and (max-width: 991px) {
+    section {
+        padding: 10rem 4% 2rem;
+    }
 }

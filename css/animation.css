@@ -1,0 +1,31 @@
+/* CSS TRANSITIONS */
+
+.ah-n {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(25vh);
+    transition: all 1.5s ease;
+}
+
+.as-n {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+/* BREAKPOINTS */
+
+@media all and (max-width: 768px) {
+    .ah-n {
+        opacity: 0;
+        filter: blur(0);
+        transform: translateY(25vh);
+        transition: all 1.5s ease;
+    }
+
+    .as-n {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}

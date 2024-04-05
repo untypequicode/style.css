@@ -158,6 +158,9 @@
     --second-main-color: var(--blue-main-color);
 
     --header-color: var(--second-bg-color);
+
+    --max-font-size: 15rem;
+    --min-font-size: 2rem;
 }
 
 .dark-mode {
