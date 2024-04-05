@@ -6,31 +6,26 @@ html {
 h1 {
     font-size: calc(1 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: 500;
-    color: var(--text-color);
 }
 
 h2 {
     font-size: calc(0.5 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: 500;
-    color: var(--text-color);
 }
 
 h3 {
     font-size: calc(0.25 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: 400;
-    color: var(--text-color);
 }
 
 h4 {
     font-size: calc(0.15 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: 400;
-    color: var(--text-color);
 }
 
 h5 {
     font-size: calc(0.125 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: 400;
-    color: var(--text-color);
 }
 
 p,
