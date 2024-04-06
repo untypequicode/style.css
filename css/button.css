@@ -1,19 +1,26 @@
-.btn {
-    position: relative;
-    font-size: 2.5rem;
-    font-weight: 400;
-    color: var(--text-color);
-    background-color: transparent;
+.btn,
+.btn-r {
+    font-size: calc(0.03 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    font-weight: calc(0 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
     padding: 1rem 2rem;
     border: 2px solid var(--text-color);
     border-radius: 5px;
+    width: auto;
     cursor: pointer;
     display: inline-block;
-    width: auto;
+}
+
+.btn,
+.btn-r:hover,
+.btn-r:focus {
+    position: relative;
+    color: var(--text-color);
+    background-color: transparent;
     z-index: 1;
 }
 
-.btn::before {
+.btn::before,
+.btn-r::before {
     content: "";
     top: 0;
     left: 0;
@@ -23,18 +30,25 @@
     z-index: -1;
     background-color: var(--text-color);
 
-    transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.25s ease-in-out;
 }
 
+.btn::before,
+.btn-r:hover::before,
+.btn-r:focus::before{
+    transform: scaleX(0);
+}
+
 .btn:hover::before,
-.btn:focus::before {
+.btn:focus::before,
+.btn-r::before {
     transform: scaleX(1);
 }
 
 .btn:hover,
-.btn:focus {
+.btn:focus,
+.btn-r {
     color: var(--bg-color);
     transition: color 0.25s ease-in-out;
 }
@@ -42,19 +56,22 @@
 /* BREAKPOINT */
 
 @media all and (max-width: 991px) {
-    .btn {
-        font-size: 2.5rem;
+    .btn,
+    .btn-r {
+        font-size: calc(0.02 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 }
 
 @media all and (max-width: 768px) {
-    .btn {
-        font-size: 2rem;
+    .btn,
+    .btn-r {
+        font-size: calc(0.01 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 }
 
 @media all and (max-width: 520px) {
-    .btn {
-        font-size: 2rem;
+    .btn,
+    .btn-r {
+        font-size: calc(0 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 }
