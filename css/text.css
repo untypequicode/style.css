@@ -5,27 +5,27 @@ html {
 
 h1 {
     font-size: calc(1 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
-    font-weight: 500;
+    font-weight: calc(1 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
 h2 {
     font-size: calc(0.5 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
-    font-weight: 500;
+    font-weight: calc(0.5 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
 h3 {
     font-size: calc(0.25 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
-    font-weight: 400;
+    font-weight: calc(0.25 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
 h4 {
     font-size: calc(0.15 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
-    font-weight: 400;
+    font-weight: calc(0.15 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
 h5 {
     font-size: calc(0.125 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
-    font-weight: 400;
+    font-weight: calc(0.125 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
 p,
@@ -33,7 +33,7 @@ li,
 code {
     font-family: "Urbanist", sans-serif;
     font-size: calc(0.03 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
-    font-weight: 400;
+    font-weight: calc(0 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
 /* BREAKPOINT */
