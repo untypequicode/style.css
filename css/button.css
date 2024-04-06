@@ -30,8 +30,15 @@
     z-index: -1;
     background-color: var(--text-color);
 
-    transform-origin: left;
     transition: transform 0.25s ease-in-out;
+}
+
+.btn::before {
+    transform-origin: left;
+}
+
+.btn-r::before {
+    transform-origin: right;
 }
 
 .btn::before,
