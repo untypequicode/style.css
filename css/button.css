@@ -1,84 +1,93 @@
 .btn,
 .btn-r {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
     font-size: calc(0.03 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: calc(0 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
     padding: 1rem 2rem;
-    border: 2px solid var(--text-color);
-    border-radius: 5px;
-    width: auto;
     cursor: pointer;
-    display: inline-block;
+    z-index: 1;
+    overflow: hidden;
 }
 
-.btn,
-.btn-r:hover,
-.btn-r:focus {
-    position: relative;
+.btn {
     color: var(--text-color);
-    background-color: transparent;
-    z-index: 1;
+    background: transparent;
+}
+
+.btn-r {
+    color: var(--bg-color);
+    background: var(--text-color);
 }
 
 .btn::before,
-.btn-r::before {
+.btn-r::before{
     content: "";
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 100%;
     position: absolute;
     z-index: -1;
-    background-color: var(--text-color);
 
-    transition: transform 0.25s ease-in-out;
+    transform-origin: left;
+    transition: 0.25s ease-in-out;
 }
 
 .btn::before {
-    transform-origin: left;
+    background: var(--text-color);
 }
 
 .btn-r::before {
-    transform-origin: right;
-}
-
-.btn::before,
-.btn-r:hover::before,
-.btn-r:focus::before{
-    transform: scaleX(0);
+    background: var(--bg-color);
 }
 
 .btn:hover::before,
 .btn:focus::before,
-.btn-r::before {
-    transform: scaleX(1);
+.btn-r:hover::before,
+.btn-r:focus::before{
+    width: 100%;
 }
 
 .btn:hover,
 .btn:focus,
-.btn-r {
-    color: var(--bg-color);
+.btn-r:hover,
+.btn-r:focus{
     transition: color 0.25s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--bg-color);
+}
+
+.btn-r:hover,
+.btn-r:focus {
+    color: var(--text-color);
 }
 
 /* BREAKPOINT */
 
 @media all and (max-width: 991px) {
-    .btn,
-    .btn-r {
+    .btn {
         font-size: calc(0.02 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 }
 
 @media all and (max-width: 768px) {
-    .btn,
-    .btn-r {
+    .btn {
         font-size: calc(0.01 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 }
 
 @media all and (max-width: 520px) {
-    .btn,
-    .btn-r {
+    .btn {
         font-size: calc(0 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     }
 }
