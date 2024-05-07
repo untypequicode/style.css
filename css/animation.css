@@ -5,7 +5,7 @@
     opacity: 0;
     filter: blur(5px);
     transform: translateY(25vh);
-    transition: blur 1.5s ease, translateY 1.5s ease;
+    transition: filter 1.5s ease, transform 1.5s ease, opacity 1.5s ease;
 }
 
 .as,
