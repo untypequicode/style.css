@@ -23,9 +23,13 @@
     --purple-text-color: #2E008C;
     --purple-main-color: #6100EB;
 
-    --bg-color: #F5F5F5;
-    --text-color: #303C40;
-    --main-color: #EDF0F2;
+    --grey-bg-color: #F5F5F5;
+    --grey-text-color: #303C40;
+    --grey-main-color: #EDF0F2;
+
+    --bg-color: var(--grey-bg-color);
+    --text-color: var(--grey-text-color);
+    --main-color: var(--grey-main-color);
 
     --second-bg-color: var(--blue-bg-color);
     --second-text-color: var(--blue-text-color);
@@ -59,9 +63,13 @@
     --purple-text-color: #C4B5E8;
     --purple-main-color: #1A00A8;
 
-    --bg-color: #1A1A1A;
-    --text-color: #FFFFFF;
-    --main-color: #546E7A;
+    --grey-bg-color: #1A1A1A;
+    --grey-text-color: #FFFFFF;
+    --grey-main-color: #546E7A;
+
+    --bg-color: var(--grey-bg-color);
+    --text-color: var(--grey-text-color);
+    --main-color: var(--grey-main-color);
 
     --second-bg-color: var(--blue-bg-color);
     --second-text-color: var(--blue-text-color);
