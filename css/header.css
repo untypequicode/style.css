@@ -33,15 +33,25 @@
     gap: 3.5rem;
 }
 
-.header .navbar a {
-    font-size: 1.7rem;
+.header .navbar a,
+#switch-mode {
     color: var(--text-color);
     font-weight: 500;
     transition: .3s;
 }
 
+.header .navbar a {
+    font-size: 1.7rem;
+}
+
+#switch-mode {
+    font-size: 2.5rem;
+}
+
 .header .navbar a:hover,
-.header .navbar a.active {
+.header .navbar a.active,
+#switch-mode:hover,
+#switch-mode.active{
     color: var(--second-text-color);
 }
 
@@ -57,15 +67,6 @@
     color: var(--text-color);
     cursor: pointer;
     display: none;
-}
-
-#switch-mode {
-    fill: var(--text-color);
-
-    width: 3.125rem;
-    height: 3.125rem;
-
-    cursor: pointer;
 }
 
 /* BREAKPOINTS */
