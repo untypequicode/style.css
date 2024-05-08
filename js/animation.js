@@ -8,7 +8,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
-const hiddenElements = document.querySelectorAll('.ah');
+const hiddenElements = document.querySelectorAll('.ah, .ah-n, .ah-i');
 hiddenElements.forEach((element) => {
     observer.observe(element);
 });
