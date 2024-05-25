@@ -31,7 +31,8 @@ section.s-bg-s {
     color: var(--second-text-color);
 }
 
-.sh {
+.sh,
+.sh-v {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -53,5 +54,11 @@ section.s-bg-s {
 @media all and (max-width: 991px) {
     section {
         padding: 10rem 4% 2rem;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .sh-v {
+        flex-direction: column;
     }
 }
