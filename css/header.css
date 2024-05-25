@@ -30,12 +30,21 @@
     justify-content: center;
 }
 
-.header .navbar {
+.header .navbar,
+.header-links,
+.header-link {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.header .navbar {
     gap: 3.5rem;
+}
+
+.header-links {
+    gap: 1.75rem;
 }
 
 .header .navbar a,
@@ -49,7 +58,8 @@
     font-size: 1.7rem;
 }
 
-#switch-mode {
+#switch-mode,
+.header-link i {
     font-size: 2.5rem;
 }
 
@@ -140,9 +150,5 @@
     .header .navbar.active a {
         transform: translateX(0);
         transition-delay: .25s;
-    }
-
-    #switch-mode {
-        margin-left: 0;
     }
 }
