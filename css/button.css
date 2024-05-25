@@ -3,6 +3,7 @@
 .btn-c {
     position: relative;
     font-size: calc(0.03 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    font-weight: calc(0 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
     border-radius: 5px;
     width: auto;
     height: 100%;
@@ -24,7 +25,6 @@
     border: 2px solid var(--text-color);
     z-index: 1;
     overflow: hidden;
-    font-weight: calc(0 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
 .btn.second,
@@ -315,7 +315,6 @@
     transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
     background: var(--second-bg-color);
     color: var(--second-text-color);
-    font-weight: calc(0.125 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
 .btn-c:hover {
