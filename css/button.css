@@ -26,14 +26,112 @@
     overflow: hidden;
 }
 
+.btn.second,
+.btn-r.second {
+    border-color: var(--second-text-color);
+}
+
+.btn.green,
+.btn-r.green {
+    border-color: var(--green-text-color);
+}
+
+.btn.red,
+.btn-r.red {
+    border-color: var(--red-text-color);
+}
+
+.btn.blue,
+.btn-r.blue {
+    border-color: var(--blue-text-color);
+}
+
+.btn.yellow,
+.btn-r.yellow {
+    border-color: var(--yellow-text-color);
+}
+
+.btn.orange,
+.btn-r.orange {
+    border-color: var(--orange-text-color);
+}
+
+.btn.purple,
+.btn-r.purple {
+    border-color: var(--purple-text-color);
+}
+
 .btn {
     color: var(--text-color);
     background: transparent;
 }
 
+.btn.second {
+    color: var(--second-text-color);
+}
+
+.btn.green {
+    color: var(--green-text-color);
+}
+
+.btn.red {
+    color: var(--red-text-color);
+}
+
+.btn.blue {
+    color: var(--blue-text-color);
+}
+
+.btn.yellow {
+    color: var(--yellow-text-color);
+}
+
+.btn.orange {
+    color: var(--orange-text-color);
+}
+
+.btn.purple {
+    color: var(--purple-text-color);
+}
+
 .btn-r {
     color: var(--bg-color);
     background: var(--text-color);
+}
+
+.btn-r.second {
+    color: var(--second-bg-color);
+    background: var(--second-text-color);
+}
+
+.btn-r.green {
+    color: var(--green-bg-color);
+    background: var(--green-text-color);
+}
+
+.btn-r.red {
+    color: var(--red-bg-color);
+    background: var(--red-text-color);
+}
+
+.btn-r.blue {
+    color: var(--blue-bg-color);
+    background: var(--blue-text-color);
+}
+
+.btn-r.yellow {
+    color: var(--yellow-bg-color);
+    background: var(--yellow-text-color);
+}
+
+.btn-r.orange {
+    color: var(--orange-bg-color);
+    background: var(--orange-text-color);
+}
+
+.btn-r.purple {
+    color: var(--purple-bg-color);
+    background: var(--purple-text-color);
 }
 
 .btn::before,
@@ -54,8 +152,64 @@
     background: var(--text-color);
 }
 
+.btn.second::before {
+    background: var(--second-text-color);
+}
+
+.btn.green::before {
+    background: var(--green-text-color);
+}
+
+.btn.red::before {
+    background: var(--red-text-color);
+}
+
+.btn.blue::before {
+    background: var(--blue-text-color);
+}
+
+.btn.yellow::before {
+    background: var(--yellow-text-color);
+}
+
+.btn.orange::before {
+    background: var(--orange-text-color);
+}
+
+.btn.purple::before {
+    background: var(--purple-text-color);
+}
+
 .btn-r::before {
     background: var(--bg-color);
+}
+
+.btn-r.second::before {
+    background: var(--second-bg-color);
+}
+
+.btn-r.green::before {
+    background: var(--green-bg-color);
+}
+
+.btn-r.red::before {
+    background: var(--red-bg-color);
+}
+
+.btn-r.blue::before {
+    background: var(--blue-bg-color);
+}
+
+.btn-r.yellow::before {
+    background: var(--yellow-bg-color);
+}
+
+.btn-r.orange::before {
+    background: var(--orange-bg-color);
+}
+
+.btn-r.purple::before {
+    background: var(--purple-bg-color);
 }
 
 .btn:hover::before,
@@ -77,9 +231,79 @@
     color: var(--bg-color);
 }
 
+.btn.second:hover,
+.btn.second:focus {
+    color: var(--second-bg-color);
+}
+
+.btn.green:hover,
+.btn.green:focus {
+    color: var(--green-bg-color);
+}
+
+.btn.red:hover,
+.btn.red:focus {
+    color: var(--red-bg-color);
+}
+
+.btn.blue:hover,
+.btn.blue:focus {
+    color: var(--blue-bg-color);
+}
+
+.btn.yellow:hover,
+.btn.yellow:focus {
+    color: var(--yellow-bg-color);
+}
+
+.btn.orange:hover,
+.btn.orange:focus {
+    color: var(--orange-bg-color);
+}
+
+.btn.purple:hover,
+.btn.purple:focus {
+    color: var(--purple-bg-color);
+}
+
 .btn-r:hover,
 .btn-r:focus {
     color: var(--text-color);
+}
+
+.btn-r.second:hover,
+.btn-r.second:focus {
+    color: var(--second-text-color);
+}
+
+.btn-r.green:hover,
+.btn-r.green:focus {
+    color: var(--green-text-color);
+}
+
+.btn-r.red:hover,
+.btn-r.red:focus {
+    color: var(--red-text-color);
+}
+
+.btn-r.blue:hover,
+.btn-r.blue:focus {
+    color: var(--blue-text-color);
+}
+
+.btn-r.yellow:hover,
+.btn-r.yellow:focus {
+    color: var(--yellow-text-color);
+}
+
+.btn-r.orange:hover,
+.btn-r.orange:focus {
+    color: var(--orange-text-color);
+}
+
+.btn-r.purple:hover,
+.btn-r.purple:focus {
+    color: var(--purple-text-color);
 }
 
 /*
