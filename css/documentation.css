@@ -15,14 +15,6 @@ section.s-bg-s code {
     color: var(--text-color);
 }
 
-ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-}
-
 li {
     display: flex;
     flex-direction: row;

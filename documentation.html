@@ -30,8 +30,8 @@
 
     <section>
         <div class="sv">
-            <h1 class="ah">Documentation</h1>
-            <h4 class="ah">Bienvenue dans la documentation de Style.css</h4>
+            <h1 class="ah-i">Documentation</h1>
+            <h4 class="ah-i">Bienvenue dans la documentation de Style.css</h4>
         </div>
     </section>
 
@@ -42,11 +42,11 @@
             <div class="sv">
                 <h4>Télécharger le fichier CSS</h4>
                 <p>Vous pouvez télécharger le fichier CSS de Style.css et ses dépendances pour l'inclure dans votre projet.</p>
-                <pre><code>&lt;link rel="stylesheet" href="style.css"&gt;</code></pre>
+                <p><code>&lt;link rel="stylesheet" href="style.css"&gt;</code></p>
 
                 <h4>Utiliser le CDN</h4>
                 <p>Vous pouvez également utiliser le CDN de Style.css pour inclure le framework dans votre projet.</p>
-                <pre><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/style.css"&gt;</code></pre>
+                <p><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/style.css"&gt;</code></p>
             </div>
         </div>
     </section>
@@ -65,24 +65,35 @@
         <div class="sv">
             <h4>Accéder au style des sections</h4>
             <h5>Télécharger le fichier CSS</h5>
-            <pre><code>&lt;link rel="stylesheet" href="section.css"&gt;</code></pre>
+            <p><code>&lt;link rel="stylesheet" href="section.css"&gt;</code></p>
             <h5>Utiliser le CDN</h5>
-            <pre><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/section.css"&gt;</code></pre>
+            <p><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/section.css"&gt;</code></p>
         </div>
     </section>
 
     <section class="s-mh-50">
         <div class="sv">
             <h4>Gestion des tailles</h4>
-            <p>Vous pouvez gérer la taille des sections en utilisant les classes suivantes :</p>
-            <pre><code>&lt;section class="s-mh-25"&gt;&lt;/section&gt;</code></pre>
-            <p>La valeur de la taille est exprimée en pourcentage de la hauteur de la fenêtre.</p>
-            <p>Les tailles disponibles sont :</p>
-            <ul>
-                <li><pre><code>s-mh-25</code></pre></li>
-                <li><pre><code>s-mh-50</code></pre></li>
-                <li><pre><code>s-mh-75</code></pre></li>
-                <li><pre><code>s-mh-100</code></pre></li>
+            <p>Vous pouvez gérer la taille et la couleur des sections en utilisant les classes suivantes :</p>
+            <p><code>&lt;section class="s-mh-25 s-bg-s"&gt;&lt;/section&gt;</code></p>
+            <p>La valeur de la taille est exprimée en vh.</p>
+            <h5>Les tailles disponibles sont :</h5>
+            <ul class="sh-v-a">
+                <li><p><code>s-mh-25</code></p></li>
+                <li><p><code>s-mh-50</code></p></li>
+                <li><p><code>s-mh-75</code></p></li>
+                <li><p><code>s-mh-100</code></p></li>
+            </ul>
+            <h5>Les couleurs disponibles sont :</h5>
+            <ul class="sv">
+                <li><p><code>s-bg</code> : couleur par défaut</p></li>
+                <li><p><code>s-bg-s</code> : couleur secondaire</p></li>
+                <li><p><code>s-bg-blue</code> : couleur bleue</p></li>
+                <li><p><code>s-bg-green</code> : couleur verte</p></li>
+                <li><p><code>s-bg-yellow</code> : couleur jaune</p></li>
+                <li><p><code>s-bg-orange</code> : couleur orange</p></li>
+                <li><p><code>s-bg-red</code> : couleur rouge</p></li>
+                <li><p><code>s-bg-purple</code> : couleur violette</p></li>
             </ul>
         </div>
     </section>
@@ -91,11 +102,15 @@
         <div class="sv">
             <h4>Gestion des placements du contenu</h4>
             <p>Vous pouvez gérer le placement du contenu des sections en utilisant les classes suivantes :</p>
-            <pre><code>&lt;div class="sv"&gt;&lt;/div&gt;</code></pre>
-            <p>Les placements disponibles sont :</p>
-            <ul>
-                <li><pre><code>sh</code></pre> : horizontal</li>
-                <li><pre><code>sv</code></pre> : vertical</li>
+            <p><code>&lt;div class="sv"&gt;&lt;/div&gt;</code></p>
+            <h5>Les placements disponibles sont :</h5>
+            <ul class="sv">
+                <li><p><code>sh</code></p> : horizontal</li>
+                <li><p><code>sh-v</code></p> : horizontal vertical</li>
+                <li><p><code>sh-a</code></p> : horizontal ajusté</li>
+                <li><p><code>sh-v-a</code></p> : horizontal vertical ajusté</li>
+                <li><p><code>sv</code></p> : vertical</li>
+                <li><p><code>sv-a</code></p> : vertical ajusté</li>
             </ul>
         </div>
     </section>
@@ -110,9 +125,9 @@
         <div class="sv">
             <h4>Accéder au style des animations</h4>
             <h5>Télécharger le fichier CSS</h5>
-            <pre><code>&lt;link rel="stylesheet" href="animation.css"&gt;</code></pre>
+            <p><code>&lt;link rel="stylesheet" href="animation.css"&gt;</code></p>
             <h5>Utiliser le CDN</h5>
-            <pre><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/animation.css"&gt;</code></pre>
+            <p><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/animation.css"&gt;</code></p>
         </div>
     </section>
 
@@ -120,13 +135,14 @@
         <div class="sv">
             <h4>Gestion des animations</h4>
             <p>Vous pouvez gérer les animations des éléments en utilisant les classes suivantes :</p>
-            <pre><code>&lt;div class="ah-n"&gt;&lt;/div&gt;</code></pre>
+            <p><code>&lt;div class="ah-n"&gt;&lt;/div&gt;</code></p>
             <p>Le paramètre <code>n</code> permet de définir le type d'animation. La valeur de <code>n</code> est celle par défaut, il n'est pas nécessaire de l'ajouter.</p>
             <p>Le paramètre <code>h</code> détermine que le composant sera caché au chargement de la page. Il faut ajouter la classe avec le <code>s</code> pour afficher le composant au chargement de la page.</p>
-            <p>Les animations disponibles sont :</p>
-            <ul>
-                <li><pre><code>ah</code> <code>ah-n</code></pre> : animation normale cachée</li>
-                <li><pre><code>as</code> <code>as-n</code></pre> : animation normale affichée au démarrage à définir en plus de <code>ah</code></li>
+            <h5>Les animations disponibles sont :</h5>
+            <ul class="sv">
+                <li><p><code>ah</code> <code>ah-n</code></p> : animation par défault avec un fondu de bas en haut</li>
+                <li><p><code>ah-i</code></p> : animation avec un fondu simple</li>
+                <li><p><code>as</code> : animation affichée au chargement de la page, à utiliser avec une animation</p></li>
             </ul>
         </div>
     </section>
@@ -141,9 +157,9 @@
         <div class="sv">
             <h4>Accéder au style des textes</h4>
             <h5>Télécharger le fichier CSS</h5>
-            <pre><code>&lt;link rel="stylesheet" href="text.css"&gt;</code></pre>
+            <p><code>&lt;link rel="stylesheet" href="text.css"&gt;</code></p>
             <h5>Utiliser le CDN</h5>
-            <pre><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/text.css"&gt;</code></pre>
+            <p><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/text.css"&gt;</code></p>
         </div>
     </section>
 
@@ -151,9 +167,9 @@
         <div class="sv">
             <h4>Gestion des textes</h4>
             <p>La gestion des tailles de texte est automatique. Vous pouvez gérer la taille du texte le plus petit et le plus grand en utilisant les lignes de code css suivantes :</p>
-            <pre><code>:root { --max-font-size: 15rem; --min-font-size: 2rem; }</code></pre>
+            <p><code>:root { --max-font-size: 15rem; --min-font-size: 2rem; }</code></p>
             <p>La gestion des largeurs de texte est automatique. Vous pouvez gérer la largeur du texte le plus petit et le plus grand en utilisant les lignes de code css suivantes :</p>
-            <pre><code>:root { --max-font-weight: 500; --min-font-weight: 400; }</code></pre>
+            <p><code>:root { --max-font-weight: 500; --min-font-weight: 400; }</code></p>
         </div>
     </section>
 
@@ -167,17 +183,31 @@
         <div class="sv">
             <h4>Accéder au style des boutons</h4>
             <h5>Télécharger le fichier CSS</h5>
-            <pre><code>&lt;link rel="stylesheet" href="button.css"&gt;</code></pre>
+            <p><code>&lt;link rel="stylesheet" href="button.css"&gt;</code></p>
             <h5>Utiliser le CDN</h5>
-            <pre><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/button.css"&gt;</code></pre>
+            <p><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/button.css"&gt;</code></p>
         </div>
     </section>
 
     <section class="s-mh-50 s-bg-s">
         <div class="sv">
             <h4>Gestion des boutons</h4>
-            <p>Vous pouvez gérer les boutons en utilisant les classes suivantes :</p>
-            <pre><code>&lt;a class="btn"&gt;&lt;/a&gt;</code></pre>
+            <h5>Vous pouvez gérer les boutons en utilisant les classes suivantes :</h5>
+            <ul class="sv">
+                <li><p><code>btn</code></p> : bouton par défaut avec une animation slide</li>
+                <li><p><code>btn-r</code></p> : bouton avec animation slide à l'envers</li>
+                <li><p><code>btn-c</code></p> : bouton avec animation de fondu de couleur</li>
+            </ul>
+            <h5>Il est possible de gérer la couleur des boutons en utilisant les variables css suivantes :</h5>
+            <ul class="sv">
+                <li><p><code>second</code></p> : couleur secondaire</li>
+                <li><p><code>blue</code></p> : couleur bleue</li>
+                <li><p><code>green</code></p> : couleur verte</li>
+                <li><p><code>yellow</code></p> : couleur jaune</li>
+                <li><p><code>orange</code></p> : couleur orange</li>
+                <li><p><code>red</code></p> : couleur rouge</li>
+                <li><p><code>purple</code></p> : couleur violette</li>
+            </ul>
         </div>
     </section>
 
@@ -191,9 +221,9 @@
         <div class="sv">
             <h4>Accéder au style des couleurs</h4>
             <h5>Télécharger le fichier CSS</h5>
-            <pre><code>&lt;link rel="stylesheet" href="color.css"&gt;</code></pre>
+            <p><code>&lt;link rel="stylesheet" href="color.css"&gt;</code></p>
             <h5>Utiliser le CDN</h5>
-            <pre><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/color.css"&gt;</code></pre>
+            <p><code>&lt;link rel="stylesheet" href="https://untypequicode.github.io/style.css/css/color.css"&gt;</code></p>
         </div>
     </section>
 
@@ -201,17 +231,17 @@
         <div class="sv">
             <h4>Gestion des couleurs</h4>
             <p>Vous pouvez gérer les couleurs en utilisant les variables css suivantes :</p>
-            <pre><code>var(--bg-color)</code></pre>
+            <p><code>var(--bg-color)</code></p>
             <p>Les couleurs disponibles sont :</p>
-            <ul>
-                <li><pre><code style="background: var(--bg-color); color: var(--text-color); border: 0.2rem solid var(--main-color);">Default : var(--bg-color) var(--text-color) var(--main-color)</code></pre></li>
-                <li><pre><code style="background: var(--second-bg-color); color: var(--second-text-color); border: 0.2rem solid var(--second-main-color);">Blue : var(--second-bg-color) var(--second-text-color) var(--second-main-color)</code></pre></li>
-                <li><pre><code style="background: var(--blue-bg-color); color: var(--blue-text-color); border: 0.2rem solid var(--blue-main-color);">Blue : var(--blue-bg-color) var(--blue-text-color) var(--blue-main-color)</code></pre></li>
-                <li><pre><code style="background: var(--green-bg-color); color: var(--green-text-color); border: 0.2rem solid var(--green-main-color);">Green : var(--green-bg-color) var(--green-text-color) var(--green-main-color)</code></pre></li>
-                <li><pre><code style="background: var(--yellow-bg-color); color: var(--yellow-text-color); border: 0.2rem solid var(--yellow-main-color);">Yellow : var(--yellow-bg-color) var(--yellow-text-color) var(--yellow-main-color)</code></pre></li>
-                <li><pre><code style="background: var(--orange-bg-color); color: var(--orange-text-color); border: 0.2rem solid var(--orange-main-color);">Orange : var(--orange-bg-color) var(--orange-text-color) var(--orange-main-color)</code></pre></li>
-                <li><pre><code style="background: var(--red-bg-color); color: var(--red-text-color); border: 0.2rem solid var(--red-main-color);">Red : var(--red-bg-color) var(--red-text-color) var(--red-main-color)</code></pre></li>
-                <li><pre><code style="background: var(--purple-bg-color); color: var(--purple-text-color); border: 0.2rem solid var(--purple-main-color);">Purple : var(--purple-bg-color) var(--purple-text-color) var(--purple-main-color)</code></pre></li>
+            <ul class="sv">
+                <li><p><code style="background: var(--bg-color); color: var(--text-color); border: 0.2rem solid var(--main-color);">Default : var(--bg-color) var(--text-color) var(--main-color)</code></p></li>
+                <li><p><code style="background: var(--second-bg-color); color: var(--second-text-color); border: 0.2rem solid var(--second-main-color);">Blue : var(--second-bg-color) var(--second-text-color) var(--second-main-color)</code></p></li>
+                <li><p><code style="background: var(--blue-bg-color); color: var(--blue-text-color); border: 0.2rem solid var(--blue-main-color);">Blue : var(--blue-bg-color) var(--blue-text-color) var(--blue-main-color)</code></p></li>
+                <li><p><code style="background: var(--green-bg-color); color: var(--green-text-color); border: 0.2rem solid var(--green-main-color);">Green : var(--green-bg-color) var(--green-text-color) var(--green-main-color)</code></p></li>
+                <li><p><code style="background: var(--yellow-bg-color); color: var(--yellow-text-color); border: 0.2rem solid var(--yellow-main-color);">Yellow : var(--yellow-bg-color) var(--yellow-text-color) var(--yellow-main-color)</code></p></li>
+                <li><p><code style="background: var(--orange-bg-color); color: var(--orange-text-color); border: 0.2rem solid var(--orange-main-color);">Orange : var(--orange-bg-color) var(--orange-text-color) var(--orange-main-color)</code></p></li>
+                <li><p><code style="background: var(--red-bg-color); color: var(--red-text-color); border: 0.2rem solid var(--red-main-color);">Red : var(--red-bg-color) var(--red-text-color) var(--red-main-color)</code></p></li>
+                <li><p><code style="background: var(--purple-bg-color); color: var(--purple-text-color); border: 0.2rem solid var(--purple-main-color);">Purple : var(--purple-bg-color) var(--purple-text-color) var(--purple-main-color)</code></p></li>
             </ul>
         </div>
     </section>

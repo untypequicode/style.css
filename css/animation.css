@@ -13,7 +13,9 @@
     transform: translateY(20vh);
 }
 
-.as {
+.ah.as,
+.ah-n.as,
+.ah-i.as {
     opacity: 1;
     filter: blur(0);
     transform: translateY(0);
