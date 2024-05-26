@@ -1,7 +1,8 @@
 @import "style.css";
 @import "main.css";
 
-code {
+code,
+.code {
     background: var(--second-bg-color);
     color: var(--second-text-color);
     padding: 0.5rem 1rem;
@@ -10,7 +11,8 @@ code {
     /*display: block;*/
 }
 
-section.s-bg-s code {
+section.s-bg-s code,
+section.s-bg-s .code {
     background: var(--bg-color);
     color: var(--text-color);
 }
