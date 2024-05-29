@@ -3,27 +3,37 @@ html {
     overflow-x: hidden;
 }
 
-h1 {
+h1,
+h1 * {
+    font-family: "Alegreya Sans", sans-serif;
     font-size: calc(1 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: calc(1 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
-h2 {
+h2,
+h2 * {
+    font-family: "Alegreya Sans", sans-serif;
     font-size: calc(0.5 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: calc(0.5 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
-h3 {
+h3,
+h3 * {
+    font-family: "Alegreya Sans", sans-serif;
     font-size: calc(0.25 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: calc(0.25 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
-h4 {
+h4,
+h4 * {
+    font-family: "Alegreya Sans", sans-serif;
     font-size: calc(0.15 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: calc(0.15 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
 
-h5 {
+h5,
+h5 * {
+    font-family: "Alegreya Sans", sans-serif;
     font-size: calc(0.125 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
     font-weight: calc(0.125 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
 }
